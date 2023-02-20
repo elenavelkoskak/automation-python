@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 
+
 class LoginPage:
     username_id = "labeled-input-signEmail"
     password_id = "labeled-input-password"
